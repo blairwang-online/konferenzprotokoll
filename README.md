@@ -23,7 +23,7 @@ Example project:
 
 ```zsh
 source .venv/bin/activate
-sh run.sh examples/topics.csv
+sh run.sh examples/topics.csv > ~/Desktop/konferenzprotokoll.html
 deactivate
 ```
 
@@ -31,6 +31,6 @@ Any CSV file with headers `item_id,flags,topic,fieldnotes,coverage`:
 
 ```zsh
 source .venv/bin/activate
-sh run.sh ~/path/to/my/topics/list.csv
+sh run.sh ~/path/to/my/topics/list.csv > ~/Desktop/konferenzprotokoll.html
 deactivate
 ```
